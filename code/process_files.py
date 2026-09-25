@@ -35,6 +35,12 @@ if "files_processed" not in st.session_state:
 
 uploaded_file = st.file_uploader("Upload package file:", key="package_file")
 process_clicked = st.button("Process file", key="process")
+reset_clicked = st.button("Reset", key="reset")
+
+if reset_clicked:
+    st.session_state.files_processed = 0
+    st.session_state.packages_processed = 0
+    st.session_state.history = []
 
 if uploaded_file and process_clicked:
     text = uploaded_file.getvalue().decode("utf-8")
