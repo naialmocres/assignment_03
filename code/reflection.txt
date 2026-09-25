@@ -1,6 +1,1 @@
-Write your reflection here.
-
-See reflection.md for what makes a good reflection — be specific, use the
-terminology from this assignment (rerun, widget, return value, guard, bytes vs.
-text, decode, session state, initialise once, button-triggered, metric), and make
-it actionable.
+In this assignment, I learned how to build interactive Streamlit applications while managing execution flow and application state. I gained a firm understanding of Streamlit's rerun mechanism, where interacting with any UI widget re-executes the entire script from top to bottom.
